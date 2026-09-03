@@ -1,0 +1,7 @@
+# The grader runs on Linux. A shell script checked out with CRLF fails with
+# "bad interpreter: /usr/bin/env bash^M", which reads like a broken script
+# rather than a line-ending problem and costs an hour every time.
+* text=auto eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+Dockerfile text eol=lf

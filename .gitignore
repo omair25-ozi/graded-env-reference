@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+
+# Instances and answers are derived from --seed, never committed. If one of
+# these ever appears in a diff, something has started writing the expected
+# answer to disk and the "nothing to steal" property in README section 1 is
+# no longer true.
+*.ndjson
+*.out
+matrix.json
